@@ -1,0 +1,33 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+
+class Grade extends CI_Controller {
+	/*分数统计*/
+	public function index(){
+		$this->load->view('index/grade.html');
+<<<<<<< HEAD
+		//echo site_url();die;
+	}
+	public function grad_rank(){
+		$this->load->model('grades','grades');
+		$data['stu'] = $this->grades->get_all();
+=======
+		// echo site_url();die;
+	}
+	public function grad_rank(){
+		$this->load->model('grades','grades');
+
+
+	$data['stu'] = $this->grades->get_all();
+
+		// $data['grade'] = $this->grade->get_all();
+    	//var_dump($stu);die;
+
+
+>>>>>>> e8b85b2ab259af8cdd8e4a87a2c06c3c8551b59b
+		$this->load->view('index/grad_rank.html',$data);
+	}
+
+}
