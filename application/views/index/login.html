@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="<?php  echo base_url() .'style/index/' ?>css/login.css">
+</head>
+<body>
+	<form method="POST" action="<?php echo site_url('index/login/login_in') ?>">
+		<div class="nav">
+            <p>用户名:</p>
+            <input type="text" name="user_id"  placeholder="请输入用户名">
+            <p>密码:</p>
+            <input type="password" name="password" placeholder="请输入密码">
+            <p>验证码:</p>
+            <input type="text" name="user_word">
+            <br />
+            <br />
+            <br />
+            <div class="captcha"><?php echo $captcha ?></div>
+             <br />
+             <br />
+             
+            <!-- <input type="submit" value="注册" style="margin-right: 70px;"> -->
+            <input type="submit" value="登录">
+           <a href="<?php  echo base_url() .'index/regist'  ?>">注册</a>
+            <!-- <a href="<?php  echo base_url() .'index/regist'  ?>"  style="margin-right: 70px;">注册</a>
+            <a href="<?php  echo base_url() .'index/home'  ?>"  style="margin-right: 70px;">登录</a> -->
+         
+            <br />
+            <br />
+            <br />
+            <br />
+            <p style="text-align: center;">&copy;ACAT</p>
+        </div>
+     </form> 
+	
+</body>
+</html>

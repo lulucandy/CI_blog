@@ -1,0 +1,23 @@
+body{
+	background-image: url(../images/text-add/text-add.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+.nav{
+	position: absolute;
+	top: 160px;
+	left: 700px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	display: flex; 
+	justify-content: center;
+	flex-direction: column;
+	border: 1px yellow solid;
+	border-radius: 40px;
+}
+.bt{
+	position: absolute;
+	top: 380px;
+	left: 730px;
+}

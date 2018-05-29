@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>删除学生</title>
+	<link rel="stylesheet" type="text/css" href="<?php  echo base_url() .'style/index' ?>/css/stu-del.css">
+	<script type="text/javascript" src="<?php  echo base_url() .'style/index' ?>/js/stu-del.js"></script>
+</head>
+<body>
+	<div class="nav">
+		<p>删除学生</p>
+		请输入学号:<input id="name" type="text" />
+	    <input id="btn1" type="button" value="查找">
+	    <table id="tab1" border="1" width="500">
+	    <form method="POST"  action="<?php echo site_url('index/student/stu_del') ?>"> 
+		<thead>
+			<td>学号</td>
+			<td>姓名</td>
+			<td></td>
+		</thead>
+		<tbody>
+			<?php foreach($stu as $item): ?>
+			<tr>
+				<td><?php echo $item['stu_id'] ?></td>
+				<td><?php echo $item['stu'] ?></td>
+				<td><?php echo $item['stu_major'] ?></td>
+				<td><?php echo $item['grade'] ?></td>
+			</tr> 
+		<?php endforeach ?>
+		</tbody>
+		</form>
+	</table>
+		<input type="button" value="返回" onclick="javascript:history.back();">
+	</div>
+	
+</body>
+</html>

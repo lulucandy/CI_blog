@@ -1,0 +1,35 @@
+body{
+	background-image: url(../images/grade-rank/grade-rank.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+.tb-div{
+	position: absolute;
+	top: 60px;
+	left: 500px;
+
+}
+.tb{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.tb thead{
+	font-family: 方正舒体;
+	font-size: 1.5em;
+	color: yellow;
+}
+.bt{
+	position: absolute;
+	top: 500px;
+	left: 1200px;
+}

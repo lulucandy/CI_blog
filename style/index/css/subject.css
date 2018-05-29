@@ -1,0 +1,31 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	background-image: url(../images/subject/subject.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+.nav{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	text-align: center;
+	width: 160px;
+	height: 200px;
+	background: rgb(131,175,155);
+	border-radius: 100px;
+}
+.nav a{
+	font-family: 方正舒体;
+	font-size: 16px;
+	color: rgb(254,67,101);
+	text-decoration: none;
+
+}
+.bt{
+	position: absolute;
+	top: 400px;
+	left: 700px;
+}

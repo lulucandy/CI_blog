@@ -1,0 +1,10 @@
+body{
+	background-image: url(../images/stu-del/stu-del.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+.nav{
+	position: absolute;
+	top: 60px;
+	left: 600px;
+}

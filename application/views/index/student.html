@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>学生管理</title>
+	<link rel="stylesheet" type="text/css" href="<?php  echo base_url() .'style/index' ?>/css/student.css">
+</head>
+<body>
+	<section class="section section--menu" id="Viola">
+
+		<nav class="menu menu--viola">
+			<ul class="menu__list">
+				<li class="menu__item menu__item--current"><a onclick="javascript:history.back();" class="menu__link">返回</a></li>
+				<li class="menu__item"><a href="<?php  echo  site_url() .'/index/student/stu_add_html'  ?>" class="menu__link">增添学生</a></li>
+				<li class="menu__item"><a href="<?php  echo  site_url() .'/index/student/stu_del'  ?>" class="menu__link">删除学生</a></li>
+				<li class="menu__item"><a href="<?php  echo  site_url() .'/index/student/stu_mod'  ?>" class="menu__link">修改信息</a></li>
+				<li class="menu__item"><a href="<?php  echo  site_url() .'/index/student/stu_seek'  ?>" class="menu__link">查找学生</a></li>
+			</ul>
+		</nav>
+	</section>
+		
+</body>
+</html>		

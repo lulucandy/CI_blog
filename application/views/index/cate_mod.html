@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改题目</title>
+	<link rel="stylesheet" type="text/css" href="<?php  echo base_url() .'style/index' ?>/css/cate_mod.css">
+	<script type="text/javascript" src="<?php  echo base_url() .'style/index' ?>/js/cate-seek.js"></script>
+</head>
+<body>
+<form method="POST" action="<?php echo site_url('index/category/cate_mod') ?>">
+	<div class="nav">
+		<P>修改题目</p>
+	    请输入试卷编号:<input id="name" type="text" />
+	    <input id="btn1" type="button" value="查找">
+	    <table id="tab1" border="1" width="500">
+		<thead>
+			<td>试题号</td>
+			<td>小题号</td>
+			<td>题目内容</td>
+		</thead>
+		<tbody>
+			<tr>
+				<td>0001</td>
+				<td>1</td>
+				<td>某物体以速度三米每秒下落</td>
+			</tr> 
+
+			<tr>
+				<td>0002</td>
+				<td>7</td>
+				<td>在椭圆抛物线上，计算二重积分</td>
+			</tr>
+			<tr>
+				<td>0423</td>
+				<td>3</td>
+				<td>在C语言中，八位二进制的字节数为--</td>
+			</tr>
+			<tr>
+				<td>454</td>
+				<td>4</td>
+				<td>小明一直在奔跑</td>
+			</tr>
+			<tr>
+				<td>7455</td>
+				<td>7</td>
+				<td>如果，，，</td>
+			</tr>
+		</tbody>
+	</table>
+    </div>
+
+    <div class="bt">
+	    <input type="button" value="返回" onclick="javascript:history.back();" style="color: green;font-size: 1.5em;"> 
+	</div>
+
+</form>	
+</body>
+</html>

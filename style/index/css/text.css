@@ -1,0 +1,29 @@
+body{
+	background-image: url(../images/text/text.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+.nav{
+	position: absolute;
+	top: 160px;
+	left: 700px;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	display: flex; 
+	justify-content: center;
+	flex-direction: column;
+	border: 1px yellow solid;
+	border-radius: 40px;
+}
+.nav a{
+	text-decoration: none;
+	font-family: 方正舒体;
+	font-size: 1.5em;
+	color: rgb(114,83,52);
+}
+.bt{
+	position: absolute;
+	top: 300px;
+	left: 900px;
+}

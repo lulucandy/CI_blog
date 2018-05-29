@@ -1,0 +1,21 @@
+body{
+	background-image: url(../images/grade/grade.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: ·½ÕýÊæÌå;
+	font-size: 2em;
+}
+.nav{
+	position: absolute;
+	top: 180px;
+	left: 500px;
+}
+.bt{
+	position: absolute;
+	top: 300px;
+	left: 800px;
+}

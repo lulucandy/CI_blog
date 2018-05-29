@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>成绩排名</title>
+		<link rel="stylesheet" type="text/css" href="<?php  echo base_url() .'style/index' ?>/css//grade-rank.css">
+	</head>
+	<body>
+		<div  class="tb-div">
+		<table class="tb" border="1" width="500" cellpadding="0" cellspacing="0">
+		<form method="POST"  action="<?php echo site_url('index/grade/grad_rank') ?>"> 
+		<thead>
+			<td>姓名</td>
+			<td>专业</td>
+			<td>成绩</td>
+			
+		</thead>
+		<tbody>
+		<?php foreach($stu as $item): ?>
+			<tr>
+				<td><?php echo $item['stu'] ?></td>
+				<td><?php echo $item['stu_major'] ?></td>
+				<td><?php echo $item['grade'] ?></td>
+			</tr> 
+		<?php endforeach ?>
+
+<!-- 
+		foreach((array)$v as $k1 => $v1) {    
+     $edu[$k1][$k] = my_h($v1);// v1是最终要入库的数据,进行转义处理    
+}   -->
+		</tbody>
+		</form>
+	</table>
+	</div>
+	<div class="bt">
+	    <input type="button" value="返回" onclick="javascript:history.back();" style="color: green;font-size: 1.5em;"> 
+	</div>
+	</body>
+	</html>	

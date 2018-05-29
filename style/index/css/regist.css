@@ -1,0 +1,15 @@
+body{
+	background-image: url(../images/negist/ne.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+.nav{
+	position: absolute;
+	top: 180px;
+	left: 650px;
+}
+.nav p{
+	font-family: 方正舒体;
+	font-size:1.5em;
+	color:rgb(205,201,125);
+} 

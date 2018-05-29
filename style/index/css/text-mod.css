@@ -1,0 +1,15 @@
+body{
+	background-image: url(../images/text-mod/text-mod.jpg);
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+}
+.nav{
+	position: absolute;
+	top: 60px;
+	left: 500px;
+}
+.bt{
+	position: absolute;
+	top: 450px;
+	left: 1100px;
+}

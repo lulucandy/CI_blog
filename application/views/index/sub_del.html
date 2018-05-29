@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>删除科目</title>
+	<link rel="stylesheet" type="text/css" href="<?php  echo base_url() .'style/index' ?>/css/sub-add.css">
+</head>
+<body>
+	<form method="POST" action="<?php echo site_url('index/subject/sub_del') ?>">
+	    <div class="nav">
+	        <p>删除的科目名称:</p>
+            <input type="text" name="sub_name"  placeholder="请输入科目名称" >
+            <br>
+            <br>
+            <input type="submit" name="firstname" value="提交">
+            <input type="button" name="lastname" value="返回" onclick="javascript:history.back(-1);">
+	    </div>
+	    
+	</form> 
+</body>
+</html>
